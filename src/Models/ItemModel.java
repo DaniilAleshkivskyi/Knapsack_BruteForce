@@ -1,4 +1,5 @@
 package Models;
 
-public class ItemModel {
+public record ItemModel(int weight,
+                        int value) {
 }
